@@ -136,7 +136,7 @@ class Cart extends Component {
                     </td>
                     <td>{currencyFormatter(val.price * val.qty)}</td>
                     <td>
-                        <button onClick={this.onDeleteClick} className="btn btn-danger">
+                        <button onClick={() => this.onDeleteClick(index)} className="btn btn-danger">
                             Delete
                         </button>
                     </td>
