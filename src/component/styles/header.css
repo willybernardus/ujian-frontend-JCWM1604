@@ -1,0 +1,29 @@
+.header-bg{
+background-color: #0D6EFD;
+}
+.header-color{
+    color:#0D6EFD;
+}
+
+.header-brand{
+    font-size: 1.3em;
+}
+
+.header-login{
+    background-color: transparent;
+    border:black solid 2px
+}
+.header-login:hover{
+    border-color: #0D6EFD;
+    color:#0D6EFD;
+}
+.badge:hover{
+    cursor: pointer;
+}
+
+.normal-link{
+    text-decoration: none;
+}
+.normal-link:hover{
+    text-decoration: none;
+}
